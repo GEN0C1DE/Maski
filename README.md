@@ -3,7 +3,7 @@
 - Brought to you by INE Discord Community.
 
 # REQUIREMENTS
-Requirements: Install Node.js.
+X: Install Node.js.
 1. Run the Install.bat file after downloading Node.js.
 2. Run Run.bat to start the program.
 3. The rest is in your hands.
