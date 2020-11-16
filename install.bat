@@ -1,2 +1,2 @@
 @echo off
-npm install ---
+npm install fs discord.js-selfbot chalk txtgen
