@@ -1,6 +1,6 @@
 module.exports = (Bot, Message) => { 
     if (Message.author.bot) return;
-    if (Message.author.id !== Bot.user.id) return;
+    if (Message.author.id == Bot.user.id) return;
 
     let Phrases = [
         "AFK",
