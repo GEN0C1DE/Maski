@@ -3,6 +3,12 @@ For Discord Packing, brought to you by the INE Discord Community.
 
 ![Screenshot](screenshot.png)
 
+# SETTINGS
+SERVER_ID: THE ID OF THE SERVER FROM THE DEVELOPER MODE OF DISCORD.
+STATUS_TYPES: STREAMING, WATCHING, LISTENING, PLAYING
+USER_INTERVAL: 10 SECONDS (DEFAULT)
+USER_TOKEN: USER AUTHORIZATION TOKEN FOR THE BOT TO LOGIN TO.
+
 # REQUIREMENTS
 X: Install Node.js.
 1. Run the Install.bat file after downloading Node.js.
