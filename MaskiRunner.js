@@ -1,1 +1,156 @@
-const _0xbaf5=['red','_0x5e2940','Project\x20Maski\x20Online.','_0x297314','_0x52f226','\x0a\x09\x09\x09\x09\x09\x09\x09\x09-:\x20USERID:\x20','_0x5392a7','MASKI:\x20SERVER\x20DOES\x20NOT\x20EXIST\x20ON\x20YOUR\x20ACCOUNT!','SEND_MESSAGES','type','chalk','_0x509b67','catch','MASKI:\x20You\x20didn\x27t\x20supply\x20a\x20user\x20token!\x20Please\x20Edit\x20the\x20Config\x20File.\x20Exiting\x20Process.','ready','/config.js','\x0a\x09\x09\x09\x09\x09\x09\x09\x09███▄\x20▄███▓\x20▄▄▄\x20\x20\x20\x20\x20\x20\x20\x20██████\x20\x20██\x20▄█▀\x20██▓\x0a\x09\x09\x09\x09\x09\x09\x09\x09▓██▒▀█▀\x20██▒▒████▄\x20\x20\x20\x20▒██\x20\x20\x20\x20▒\x20\x20██▄█▒\x20▓██▒\x0a\x09\x09\x09\x09\x09\x09\x09\x09▓██\x20\x20\x20\x20▓██░▒██\x20\x20▀█▄\x20\x20░\x20▓██▄\x20\x20\x20▓███▄░\x20▒██▒\x0a\x09\x09\x09\x09\x09\x09\x09\x09▒██\x20\x20\x20\x20▒██\x20░██▄▄▄▄██\x20\x20\x20▒\x20\x20\x20██▒▓██\x20█▄\x20░██░\x0a\x09\x09\x09\x09\x09\x09\x09\x09▒██▒\x20\x20\x20░██▒\x20▓█\x20\x20\x20▓██▒▒██████▒▒▒██▒\x20█▄░██░\x0a\x09\x09\x09\x09\x09\x09\x09\x09░\x20▒░\x20\x20\x20░\x20\x20░\x20▒▒\x20\x20\x20▓▒█░▒\x20▒▓▒\x20▒\x20░▒\x20▒▒\x20▓▒░▓\x20\x20\x0a\x09\x09\x09\x09\x09\x09\x09\x09░\x20\x20░\x20\x20\x20\x20\x20\x20░\x20\x20▒\x20\x20\x20▒▒\x20░░\x20░▒\x20\x20░\x20░░\x20░▒\x20▒░\x20▒\x20░\x0a\x09\x09\x09\x09\x09\x09\x09\x09░\x20\x20\x20\x20\x20\x20░\x20\x20\x20\x20\x20░\x20\x20\x20▒\x20\x20\x20░\x20\x20░\x20\x20░\x20\x20░\x20░░\x20░\x20\x20▒\x20░\x0a\x09\x09\x09\x09\x09\x09\x09\x09░\x20\x20\x20\x20\x20\x20\x20\x20\x20░\x20\x20░\x20\x20\x20\x20\x20\x20░\x20\x20░\x20\x20░\x20\x20\x20\x20░\x20\x20\x0a\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Developer:\x20GEN0C1DE.\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x20\x20\x20\x20Twitter:\x20GEN0C1DE,\x20GITHUB:\x20GEN0C1DE\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x20\x20\x20Shout\x20Out\x20to\x20the\x20INE\x20Discord\x20Community.\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x0a\x09\x09\x09\x09\x09\x09\x09\x09-:\x20SERVERID:\x20','discord.js-selfbot','_0xe0bad5','_0x16ded2','_0x3c8c9a','_0x32f8d8','username','_0x14bb5f','_0x3c104a','_0x200ef1','MASKI:\x20EVENT\x20LOADED:\x20','has','_0x409e64','Couldn\x27t\x20create\x20a\x20Config.js\x20File\x20for\x20the\x20Program,\x20please\x20visit\x20GEN0C1DE\x27s\x20Github\x20account\x20listed\x20in\x20the\x20README.md','_0x77ee96','then','_0x2467e4','module.exports\x20=\x20{\x0a\x09Server_ID:\x20\x22\x22,\x20//\x20This\x20is\x20required,\x20this\x20is\x20to\x20have\x20a\x20targeted\x20server\x20so\x20the\x20bot\x20doesn\x27t\x20go\x20haywire\x20with\x20other\x20servers.\x0a\x20\x20\x20\x20User_Settings:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20Sends_Random_Sentences:\x20false\x20//\x20If\x20set\x20to\x20true,\x20will\x20send\x20messages\x20at\x20the\x20set\x20User_Interval.\x0a\x20\x20\x20\x20},\x0a\x09User_Status:\x20\x22\x22,\x20//\x20If\x20not\x20enabled,\x20or\x20not\x20set,\x20then\x20will\x20defaulted\x20to\x20regular\x20Maski\x20Status.\x0a\x20\x20\x20\x20User_Interval:\x2010,\x20//\x20The\x20Set\x20Time\x20to\x20Send\x20Random\x20Sentences.\x20Default\x20=\x2010.\x0a\x20\x20\x20\x20User_Token:\x20\x22\x20\x22\x20//\x20Your\x20Token\x20Authorization\x20Here.\x20To\x20automate\x20your\x20user\x20account.\x0a}','You\x20need\x20to\x20provide\x20a\x20Server\x20ID\x20for\x20the\x20Bot\x20to\x20begin\x20it\x27s\x20stask.','config.js','/events/','error','_0x4507aa','green','get','_0x523ea2','_0x21a2f2','toUpperCase','_0x376b66','Created\x20the\x20Config.js\x20File\x20for\x20the\x20Program.\x20Please\x20edit\x20it.','txtgen','\x0a\x09\x09\x09\x09\x09\x09\x09\x09-:\x20SERVERNAME:\x20','\x0a\x09\x09\x09\x09\x09\x09\x09\x09X:\x20RANDOM\x20MESSAGES\x20INTERVAL:\x20','_0x2fa618','_0x14a1db','_0x4af78c','split','MASKI:\x20Couldn\x27t\x20read\x20the\x20contents\x20along\x20the\x20\x27EVENTS\x27\x20directory.','MASKI:\x20Successfully\x20logged\x20into\x20account\x20with\x20token:\x20','_0x5e2ae6','clear','\x0a\x0a\x09\x09\x09\x09\x09\x09\x09\x09X:\x20RANDOM\x20MESSAGES?:\x20','bind','MASKI:\x20Config.js\x20not\x20found.\x20Creating\x20a\x20New\x20Config\x20File.\x20Edit\x20the\x20Config\x20File.\x20Exiting\x20Process.','_0x56e28c','_0x530c83','https://twitch.tv/projectmaski','_0x5977fc','text','./events','slice','send','MASKI:\x20I\x27ve\x20Encountered\x20an\x20Error:\x20','PROJECT\x20MASKI\x20ONLINE','name','forEach','LISTENING','_0x292b95','log','_0x55b3e9','_0x18a46c','\x0a\x09\x09\x09\x09\x09\x09\x09\x09-:\x20USERNAME:\x20','_0x351ae7','_0x1e834b'];(function(_0x213d22,_0xbaf5f0){const _0x14189d=function(_0x14bb5f){while(--_0x14bb5f){_0x213d22['push'](_0x213d22['shift']());}};_0x14189d(++_0xbaf5f0);}(_0xbaf5,0x186));const _0x1418=function(_0x213d22,_0xbaf5f0){_0x213d22=_0x213d22-0x0;let _0x14189d=_0xbaf5[_0x213d22];return _0x14189d;};const _0x386513=_0x1418;global[_0x386513('0x21')]={'_0x530c83':undefined,'_0x292b95':{'_0x18a46c':require(_0x386513('0x38')),'_0x297314':require('fs'),'_0x5e2ae6':require(_0x386513('0x1b')),'_0x21a2f2':require(_0x386513('0x14'))},'_0x3c104a':{'_0x52f226':![],'_0x147846':_0x386513('0xc')}};const _0x379c1a=Settings[_0x386513('0x3')][_0x386513('0x41')],_0xf07760=Settings[_0x386513('0x3')][_0x386513('0xd')],_0x626d99=Settings[_0x386513('0x3')][_0x386513('0x34')],_0x33cd74=Settings[_0x386513('0x3')][_0x386513('0x6')];var _0x13b4c0=__dirname+_0x386513('0x19');const _0x4b9dab=_0x386513('0x2b');if(!_0xf07760[_0x386513('0x28')](_0x13b4c0)){console[_0x386513('0x4')](_0x386513('0x45'));var _0x2d4962=_0xf07760[_0x386513('0x30')](_0x386513('0x2d'),_0x4b9dab,function(_0x3dda88){const _0x28eef5=_0x386513;!_0x3dda88?console[_0x28eef5('0x4')](_0x626d99[_0x28eef5('0x33')](_0x28eef5('0x37'))):console[_0x28eef5('0x2f')](_0x626d99[_0x28eef5('0xa')](_0x28eef5('0x27')));});return;}else{Settings[_0x386513('0x47')]=require(_0x13b4c0);if(!Settings[_0x386513('0x47')][_0x386513('0x36')]||Settings[_0x386513('0x47')][_0x386513('0x36')]==''||isNaN(Settings[_0x386513('0x47')][_0x386513('0x36')])==!![]){console[_0x386513('0x2f')](_0x626d99[_0x386513('0xa')](_0x386513('0x2c')));return;}if(!Settings[_0x386513('0x47')][_0x386513('0x3c')]||Settings[_0x386513('0x47')][_0x386513('0x3c')]==''){console[_0x386513('0x4')](_0x626d99[_0x386513('0xa')](_0x386513('0x17')));return;}}Settings[_0x386513('0x22')][_0x386513('0xe')]=new _0x379c1a[(_0x386513('0x9'))]();var _0x280bed=_0xf07760[_0x386513('0xb')](_0x386513('0x4b'),(_0x28aaab,_0x55e948)=>{const _0x2ca980=_0x386513;if(_0x28aaab)return console[_0x2ca980('0x4')](_0x626d99[_0x2ca980('0xa')](_0x2ca980('0x3f')));_0x55e948&&_0x55e948[_0x2ca980('0x1')](_0x122e83=>{const _0x38d4f4=_0x2ca980;try{if(_0x122e83[_0x38d4f4('0x3e')]('.')[_0x38d4f4('0x4c')](-0x1)[0x0]!=='js')return;let _0xe207f2=_0x122e83[_0x38d4f4('0x3e')]('.')[0x0],_0x14adb3=require(__dirname+(_0x38d4f4('0x2e')+_0x122e83));Settings[_0x38d4f4('0x22')][_0x38d4f4('0xe')][_0x38d4f4('0x1d')](_0xe207f2,_0x14adb3[_0x38d4f4('0x44')](null,Settings[_0x38d4f4('0x22')][_0x38d4f4('0xe')])),console[_0x38d4f4('0x4')](_0x626d99[_0x38d4f4('0x31')](_0x38d4f4('0x24')+_0xe207f2+'.'));}catch(_0x27a0dd){console[_0x38d4f4('0x2f')](_0x27a0dd);}});});Settings[_0x386513('0x22')][_0x386513('0xe')][_0x386513('0x1d')](_0x386513('0x18'),async()=>{const _0x438354=_0x386513;let _0x19c046=Settings[_0x438354('0x22')][_0x438354('0xe')][_0x438354('0x23')][_0x438354('0x1e')][_0x438354('0x32')](Settings[_0x438354('0x47')][_0x438354('0x36')]);if(!_0x19c046){console[_0x438354('0x4')](_0x626d99[_0x438354('0xa')](_0x438354('0x11')));return;}let _0x487310=Settings[_0x438354('0x47')][_0x438354('0x5')];!_0x487310||_0x487310==''?Settings[_0x438354('0x22')][_0x438354('0xe')][_0x438354('0x46')][_0x438354('0x3d')](_0x438354('0x4f'),{'type':_0x438354('0x2'),'url':_0x438354('0x48')}):Settings[_0x438354('0x22')][_0x438354('0xe')][_0x438354('0x46')][_0x438354('0x3d')](_0x487310,{'type':_0x438354('0x2'),'url':_0x438354('0x48')});console[_0x438354('0x42')](),console[_0x438354('0x4')](_0x626d99[_0x438354('0x1c')](_0x438354('0x1a')+_0x19c046['id']+_0x438354('0x39')+_0x19c046[_0x438354('0x0')]+_0x438354('0x7')+Settings[_0x438354('0x22')][_0x438354('0xe')][_0x438354('0x46')][_0x438354('0x20')][_0x438354('0x35')]()+_0x438354('0xf')+Settings[_0x438354('0x22')][_0x438354('0xe')][_0x438354('0x46')]['id']+_0x438354('0x43')+Settings[_0x438354('0x47')][_0x438354('0x49')][_0x438354('0x1f')]+_0x438354('0x3a')+Settings[_0x438354('0x47')][_0x438354('0x15')]+'\x0a\x09'));if(Settings[_0x438354('0x47')][_0x438354('0x49')][_0x438354('0x1f')]){if(!isNaN(Settings[_0x438354('0x47')][_0x438354('0x15')])){if(_0x19c046){let _0xc335c5=_0x19c046[_0x438354('0x2a')][_0x438354('0x1e')];_0xc335c5[_0x438354('0x1')](_0x6f1c91=>{const _0x255257=_0x438354;if(_0x6f1c91[_0x255257('0x13')]==_0x255257('0x4a')){let _0x4092f3=_0x19c046[_0x255257('0x10')][_0x255257('0x1e')][_0x255257('0x32')](Settings[_0x255257('0x22')][_0x255257('0xe')][_0x255257('0x46')]['id']);if(_0x4092f3){if(_0x4092f3[_0x255257('0x26')](_0x6f1c91)[_0x255257('0x25')](_0x255257('0x12'))){let _0x55c5e8=_0x6f1c91,_0x31797a=setInterval(function(){const _0x21b5bc=_0x255257;let _0x21667b=_0x33cd74[_0x21b5bc('0x8')]();_0x55c5e8[_0x21b5bc('0x4d')](_0x21667b);},Settings[_0x255257('0x47')][_0x255257('0x15')]*0x3e8);}}}});}}}}),Settings[_0x386513('0x22')][_0x386513('0xe')][_0x386513('0x3b')](Settings[_0x386513('0x47')][_0x386513('0x3c')])[_0x386513('0x29')](_0x5c37b6=>{const _0x3205ff=_0x386513;console[_0x3205ff('0x4')](_0x626d99[_0x3205ff('0x31')](_0x3205ff('0x40')+Settings[_0x3205ff('0x47')][_0x3205ff('0x3c')]));})[_0x386513('0x16')](_0x313bb0=>{const _0x2feab6=_0x386513;console[_0x2feab6('0x4')](_0x626d99[_0x2feab6('0xa')](_0x2feab6('0x4e')+_0x313bb0));return;});
+// Project Maski
+// Coded by Genocide, Provided by the INE Community.
+
+global.Settings = {
+	Config: undefined,
+	Dependencies: {
+		TG: require('txtgen'), // This is used to align text in console.
+		FS: require('fs'), // This is used to read file directories.
+		Discord: require('discord.js-selfbot'), // This is used to access the Discord API Library.
+		Chalk: require('chalk')  // This is used to access colors in the console.
+    },
+	UserInformation: {
+		Bot: false,
+		Status: "Project Maski Online."
+	}
+}
+
+
+// Defining Const Requirements of Dependencies.
+const Discord = Settings.Dependencies.Discord
+const FileSystem = Settings.Dependencies.FS
+const Chalk = Settings.Dependencies.Chalk
+const Text = Settings.Dependencies.TG
+
+// Requiring Settings
+
+var ConfigRequire = __dirname + '/config.json';
+const Config_Script = `{
+  "Server_ID": "", 
+  "User_Settings": {
+    "Sends_Random_Sentences": true 
+  },
+  "User_Status": "PROJECT MASKI ONLINE.", 
+  "User_Interval": 10,
+  "User_Token": "" 
+}
+`
+
+if (!FileSystem.existsSync(ConfigRequire)) {
+    console.log("MASKI: Config.json not found. Creating a New Config File. Edit the Config File. Exiting Process.")
+    var Stream = FileSystem.writeFile('config.json', Config_Script, function (error) {
+        if (!error) {
+            console.log(Chalk.yellow("Created the Config.json File for the Program. Please edit it."))
+        } else {
+            console.error(Chalk.red("Couldn't create a Config.json File for the Program, please visit GEN0C1DE's Github account listed in the README.md"))
+        }
+    })
+	return;
+    //process.exit(1)
+} else {
+	Settings.Config = require(ConfigRequire)
+	if (!Settings.Config.Server_ID || Settings.Config.Server_ID == "" || isNaN(Settings.Config.Server_ID) == true) {
+		console.error(Chalk.red("You need to provide a Server ID for the Bot to begin it's stask."))
+		return;
+		//process.exit(0)
+	} 
+	if (!Settings.Config.User_Token || Settings.Config.User_Token == "") {
+		console.log(Chalk.red("MASKI: You didn't supply a user token! Please Edit the Config File. Exiting Process."))
+		return;
+		//process.exit(0)
+	}
+}
+
+// Creating a new Client.
+Settings.UserInformation.Bot = new Discord.Client()
+
+// Binding Event Connections.
+var EventsDirectory = FileSystem.readdir('./events', (ERR, FILES) => {
+	if (ERR) return console.log(Chalk.red("MASKI: Couldn't read the contents along the 'EVENTS' directory."));
+	if (FILES) {
+		FILES.forEach((File) => {
+			try {
+				if (File.split('.').slice(-1)[0] !== "js") return;
+				let EventName = File.split('.')[0]
+            
+				let Event = require(__dirname + `/events/${File}`)
+				Settings.UserInformation.Bot.on(EventName, Event.bind(null, Settings.UserInformation.Bot))
+				console.log(Chalk.green(`MASKI: EVENT LOADED: ${EventName}.`))
+			} catch(Error) {
+				console.error(Error)
+			}
+		})
+	}
+})
+
+// Ready Event Connections.
+Settings.UserInformation.Bot.on("ready", async () => {
+	let Guild = Settings.UserInformation.Bot.guilds.cache.get(Settings.Config.Server_ID)
+	if (!Guild) {
+		console.log(Chalk.red("MASKI: SERVER DOES NOT EXIST ON YOUR ACCOUNT!"))
+		return;
+		//process.exit(0);
+	}
+	
+	let Status = Settings.Config.User_Status
+	if (!Status || Status == "") {
+		Settings.UserInformation.Bot.user.setActivity("PROJECT MASKI ONLINE", {type: "LISTENING", url: "https://twitch.tv/projectmaski"})
+	} else {
+		Settings.UserInformation.Bot.user.setActivity(Status, {type: "LISTENING", url: "https://twitch.tv/projectmaski"})
+	}	
+	
+	console.clear()
+	console.log(Chalk.magenta(`
+								███▄ ▄███▓ ▄▄▄        ██████  ██ ▄█▀ ██▓
+								▓██▒▀█▀ ██▒▒████▄    ▒██    ▒  ██▄█▒ ▓██▒
+								▓██    ▓██░▒██  ▀█▄  ░ ▓██▄   ▓███▄░ ▒██▒
+								▒██    ▒██ ░██▄▄▄▄██   ▒   ██▒▓██ █▄ ░██░
+								▒██▒   ░██▒ ▓█   ▓██▒▒██████▒▒▒██▒ █▄░██░
+								░ ▒░   ░  ░ ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░▒ ▒▒ ▓▒░▓  
+								░  ░      ░  ▒   ▒▒ ░░ ░▒  ░ ░░ ░▒ ▒░ ▒ ░
+								░      ░     ░   ▒   ░  ░  ░  ░ ░░ ░  ▒ ░
+								░         ░  ░      ░  ░  ░    ░  
+
+								            Developer: GEN0C1DE.
+								    Twitter: GEN0C1DE, GITHUB: GEN0C1DE
+								   Shout Out to the INE Discord Community.
+								
+								-: SERVERID: ${Guild.id}
+								-: SERVERNAME: ${Guild.name}
+								-: USERNAME: ${Settings.UserInformation.Bot.user.username.toUpperCase()}
+								-: USERID: ${Settings.UserInformation.Bot.user.id}
+
+								X: RANDOM MESSAGES?: ${Settings.Config.User_Settings.Sends_Random_Sentences}
+								X: RANDOM MESSAGES INTERVAL: ${Settings.Config.User_Interval}
+	`))
+	if (Settings.Config.User_Settings.Sends_Random_Sentences) {
+		if (!isNaN(Settings.Config.User_Interval)) {
+			if (Guild) {
+				let Channels = Guild.channels.cache
+				Channels.forEach((Channel) => {
+					if (Channel.type == "text") {
+						let BotMember = Guild.members.cache.get(Settings.UserInformation.Bot.user.id)
+						if (BotMember) {
+							if (BotMember.permissionsIn(Channel).has('SEND_MESSAGES')) {
+								let ChannelChosen = Channel
+								let TimeInterval = setInterval(function() {
+									let SentenceChosen = Text.sentence()
+									ChannelChosen.send(SentenceChosen)
+								}, Settings.Config.User_Interval * 1000)
+							}
+						}
+					}
+				})
+			}
+		}
+	}
+})
+
+Settings.UserInformation.Bot.login(Settings.Config.User_Token).then(success => {
+	console.log(Chalk.green(`MASKI: Successfully logged into account with token: ${Settings.Config.User_Token}`))
+}).catch(error => {
+	console.log(Chalk.red("MASKI: I've Encountered an Error: " + error))
+	return
+	//process.exit(0)
+})
+
