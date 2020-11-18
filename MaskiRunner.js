@@ -133,6 +133,7 @@ Settings.UserInformation.Bot.on("ready", async () => {
 						if (BotMember) {
 							if (BotMember.permissionsIn(Channel).has('SEND_MESSAGES')) {
 								let ChannelChosen = Channel
+								ChannelChosen.startTyping()
 								let TimeInterval = setInterval(function() {
 									let SentenceChosen = Text.sentence()
 									ChannelChosen.send(SentenceChosen)
