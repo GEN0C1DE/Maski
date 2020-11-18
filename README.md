@@ -1,4 +1,6 @@
 # MASKI
+![Screenshot](screenshot.png)
+
 - For Discord Packers, or whatever that shit is.
 - Brought to you by INE Discord Community.
 
