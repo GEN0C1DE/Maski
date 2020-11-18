@@ -31,6 +31,7 @@ const Config_Script = `{
     "Sends_Random_Sentences": true 
   },
   "User_Status": "PROJECT MASKI ONLINE.", 
+  "User_Status_Type": "STREAMING",
   "User_Interval": 10,
   "User_Token": "" 
 }
@@ -93,10 +94,22 @@ Settings.UserInformation.Bot.on("ready", async () => {
 	}
 	
 	let Status = Settings.Config.User_Status
+	let StatusType = Settings.Config.User_Status_Type
+	let AcceptableStatusTypes = ["STREAMING", "LISTENING", "PLAYING", "WATCHING"]
+	let AcceptedStatusState = false
+	
+	for (i = 0; i < AcceptableStatusTypes.length; i++) {
+		if (AcceptableStatusTypes[i].toLowerCase() == StatusType.toLowerCase()) {
+			AcceptedStatusState = true
+		}
+	}
+	
+	if (!AcceptedStatusState) StatusType = "STREAMING"
+	
 	if (!Status || Status == "") {
-		Settings.UserInformation.Bot.user.setActivity("PROJECT MASKI ONLINE", {type: "LISTENING", url: "https://twitch.tv/projectmaski"})
+		Settings.UserInformation.Bot.user.setActivity("PROJECT MASKI ONLINE", {type: StatusType, url: "https://twitch.tv/projectmaski"})
 	} else {
-		Settings.UserInformation.Bot.user.setActivity(Status, {type: "LISTENING", url: "https://twitch.tv/projectmaski"})
+		Settings.UserInformation.Bot.user.setActivity(Status, {type: StatusType, url: "https://twitch.tv/projectmaski"})
 	}	
 	
 	console.clear()

@@ -1,9 +1,14 @@
 {
   "Server_ID": "", 
   "User_Settings": {
-    "Sends_Random_Sentences": true 
+    "Sends_Random_Sentences": true,
+	"Sentences_Besides_Default": [
+		"Example Sentence Number 1.",
+		"Example Sentence Number 2."
+	]
   },
   "User_Status": "PROJECT MASKI ONLINE.", 
+  "User_Status_Type": "STREAMING",
   "User_Interval": 10,
-  "User_Token": "Nzc4MTE1NDQ3NDU0MTcxMTM3.X7NSqQ.XAhS3R-8qWJMHLlfMdIbhw5eqh0" 
+  "User_Token": "" 
 }
