@@ -1,8 +1,7 @@
 # MASKI
-![Screenshot](screenshot.png)
+For Discord Packing, brought to you by the INE Discord Community.
 
-- For Discord Packers, or whatever that shit is.
-- Brought to you by INE Discord Community.
+![Screenshot](screenshot.png)
 
 # REQUIREMENTS
 X: Install Node.js.
