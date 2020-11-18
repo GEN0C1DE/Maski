@@ -1,4 +1,4 @@
-module.exports = {
+{
   Server_ID: "", // This is required, this is to have a targeted server so the bot doesn't go haywire with other servers.
   User_Settings: {
     Sends_Random_Sentences: true // If set to true, will send messages at the set User_Interval.
